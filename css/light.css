@@ -1,0 +1,178 @@
+/* 
+    Document   : light
+    Created on : Jul 15, 2012, 6:11:06 PM
+    Author     : Joro
+    Description:
+        Light color scheme
+*/
+
+/* --------------------COLOR TABLE--------------------------- */
+
+/* 
+ * Semitransparent black:           rgba(0,0,0,0.7)
+ * Transparent black:               rgba(0,0,0,0.5)
+ * Blackish:                        #111111
+ * FadeToBlack:                     rgba(10,10,10,0.85)
+ * Dark gray:                       #333333
+ * ButtonFace (light gray):         rgb(240,240,240)
+ * Bright red:                      rgb(204,51,0)
+ * Semitransparent bright red:      rgba(204,51,0,0.9)
+ * Transparent bright red:          rgba(204,51,0,0.5)
+ * Selection red:                   #ffb7b7
+ * Dark green:                      #589e29
+ * Light green:                     #8ad459
+ */
+ 
+ /* -------------------ELEMENTS STYLING---------------------------- */
+
+body {
+    background-image: url("../images/renzler.gif");
+    color: rgb(20,20,20);
+}
+
+#center {
+    background-image: url("../images/bg-grid.png");
+}
+
+aside{
+    background-image: url("../images/bg-grid.png");
+}
+
+h1, h2, h3 {
+    color: rgb(20,20,20);
+}
+
+a {
+    color: rgb(204,51,0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(204,51,0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(204,51,0);
+    text-decoration: underline;
+}
+
+nav a {
+    color: rgb(20,20,20);
+    background-color: rgb(240,240,240);
+    box-shadow: 5px 5px 5px 0 #cccccc;
+}
+
+nav a:hover {
+    color: rgb(20,20,20);
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    background-color: rgba(204,51,0,0.5);
+}
+
+nav a:active {
+    color: rgb(20,20,20);
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px black inset;
+}
+
+#logout, #admin {
+    color: rgb(20,20,20);
+}
+
+#logout:hover, #admin:hover {
+    text-decoration: underline;
+}
+
+#logout:active, #admin:active {
+    color: rgba(204,51,0,0.9);
+    text-decoration: underline;
+}
+
+form {
+    color: rgb(20,20,20);
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus,
+input[type=search]:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 5px rgb(204,51,0);
+    outline: none;
+}
+
+input[type=submit], input[type=button], div.pagination a {
+    color: rgb(20,20,20);
+    background-color: rgb(240,240,240);
+    box-shadow: 3px 3px 3px 0 #cccccc;
+}
+
+input[type=submit]:hover, input[type=button]:hover, div.pagination a:hover {
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    background-color: rgba(204,51,0,0.5);
+}
+
+input[type=submit]:active, input[type=button]:active, div.pagination a:active {
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px black inset;
+}
+
+input[type=radio]:checked, input[type=checkbox]:checked {
+    box-shadow: 0 0 5px rgb(204,51,0);
+}
+
+img.photo {
+    background-color: rgb(240,240,240);
+    box-shadow: 5px 5px 5px 0 #cccccc;
+}
+
+img.error, img.loading {
+    background-color: rgb(240,240,240);
+    box-shadow: 0 0 10px black inset;
+}
+
+img.album {
+    background-color: #333333;
+    box-shadow: 0 0 10px black inset;
+}
+
+img.photo:hover {
+    background-color: rgba(204,51,0,0.5);
+}
+
+img.photo:active {
+    box-shadow: 0 0 10px black inset;
+}
+
+#photosWrap {
+    box-shadow: 3px 3px 3px 0 #cccccc;
+}
+
+img.selected {
+    background-color: #8ad459;
+}
+
+img.selected:hover {
+    background-color: #589e29;
+}
+
+.mosaic-backdrop, .mosaic-overlay {
+    background-color: rgb(240,240,240);
+}
+
+.mosaic-block {
+    border-color: rgb(240,240,240);
+}
+
+span.noLink {
+    color: rgb(20,20,20);
+    text-decoration: none;
+}
+
+span.currentPage, span.disabledPage {
+    background-color: rgb(240,240,240);
+    box-shadow: 0 0 10px black inset;
+}
+
+hr {
+    box-shadow: 0 0 3px rgba(204,51,0,0.9);
+}

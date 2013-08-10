@@ -1,0 +1,42 @@
+/* 
+    Document   : popup
+    Created on : Oct 23, 2012, 5:50:51 AM
+    Author     : Joro
+    Description:
+        Stylesheet for the popup pages
+*/
+
+body.popup {
+    line-height: 1.5em;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+        "AppleGothic", sans-serif;
+}
+
+h1.popup, h2.popup, h3.popup {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.popup {
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    margin: 1.3em;
+}
+
+h1.popup {
+    font-size: 1.3em;
+}
+
+h2.popup {
+    font-size: 1.2em;
+}
+
+h3.popup {
+    font-size: 1.1em;
+}
+
+div.right {
+    text-align: right;
+}

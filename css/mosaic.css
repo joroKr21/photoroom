@@ -1,0 +1,80 @@
+/*
+        Mosaic - Sliding Boxes and Captions jQuery Plugin
+        Version 1.0.1
+        www.buildinternet.com/project/mosaic
+        
+        By Sam Dunn / One Mighty Roar (www.onemightyroar.com)
+        Released under MIT License / GPL License
+*/
+
+/* General Mosaic Styles */
+
+.mosaic-block {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background: #111 url("../images/progress.gif") no-repeat center center;
+    border-width: 11px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.mosaic-backdrop {
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.mosaic-overlay {
+    display: none;
+    z-index: 5;
+    position: absolute;
+    padding-top: 5px;
+    width: 100%;
+}
+
+/*** Custom Animation Styles (You can remove/add any styles below) ***/
+.circle .mosaic-overlay {
+    display: none;
+    background: url("../images/hover-magnify.png") no-repeat center center;
+    opacity: 0;
+}
+
+.fade .mosaic-overlay {
+    opacity: 0;
+}
+
+.bar .mosaic-overlay {
+    bottom: -200px;
+    opacity: 0.85;
+}
+
+.bar .mosaic-overlay:hover {
+    opacity: 1;
+}
+
+.bar2 .mosaic-overlay {
+    bottom: -80px;
+    opacity: 0.85;
+}
+
+.bar2 .mosaic-overlay:hover {
+    opacity: 1;
+}
+
+.bar3 .mosaic-overlay {
+    top: -200px;
+    opacity: 0.85;
+}
+
+.bar3 .mosaic-overlay:hover {
+    opacity: 1;
+}
+
+/*** End Animation Styles ***/

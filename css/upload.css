@@ -1,0 +1,47 @@
+/* 
+    Document   : upload
+    Created on : Jul 15, 2012, 6:21:58 PM
+    Author     : Joro
+    Description:
+        Stylesheet for the upload page
+*/
+
+nav #upload {
+    color: #8ad459;
+}
+
+#up {
+    text-align: center;
+}
+
+#editPic {
+    text-align: left;
+}
+
+#deletePic {
+    float: right;
+}
+
+#descriptionAll {
+    width: 800px;
+}
+
+#photos {
+    width: 520px;
+    padding: 0;
+    margin: 0;
+}
+
+#photosWrap {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255,183,183,0.75);
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+#toAlbum {
+    margin-right: 20px;
+    margin-left: 10px;
+}

@@ -1,0 +1,32 @@
+/* 
+    Document   : edit
+    Created on : Jul 15, 2012, 6:10:24 PM
+    Author     : Joro
+    Description:
+        Stylesheet for the edit page
+*/
+
+nav #edit {
+    color: #8ad459;
+}
+
+#editPic {
+    text-align: left;
+}
+
+#deletePic {
+    float: right;
+}
+
+#albumEdit {
+    text-align: center;
+}
+
+#albumDesc {
+    width: 420px;
+    resize: none;
+}
+
+img.album {
+    margin-bottom: -10px;
+}

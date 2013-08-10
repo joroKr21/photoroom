@@ -1,0 +1,420 @@
+/* 
+    Document   : main
+    Created on : Jul 15, 2012, 6:19:57 PM
+    Author     : Joro
+    Description:
+        This is the main stylesheet for photoroom.
+*/
+
+/* --------------------CSS RESET--------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1em;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* --------------------COLOR TABLE--------------------------- */
+
+/* 
+ * Semitransparent black:           rgba(0,0,0,0.7)
+ * Transparent black:               rgba(0,0,0,0.5)
+ * Blackish:                        #111111
+ * FadeToBlack:                     rgba(10,10,10,0.85)
+ * Dark gray:                       #333333
+ * ButtonFace (light gray):         rgb(240,240,240)
+ * Bright red:                      rgb(204,51,0)
+ * Semitransparent bright red:      rgba(204,51,0,0.9)
+ * Transparent bright red:          rgba(204,51,0,0.5)
+ * Selection red:                   #ffb7b7
+ * Dark green:                      #589e29
+ * Light green:                     #8ad459
+ */
+
+/* -------------------ELEMENTS STYLING---------------------------- */
+
+body {
+    width: 100%;
+    height: 100%;
+    line-height: 1.3em;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+        "AppleGothic", sans-serif;
+}
+
+#center {
+    margin: 20px;
+    padding: 20px;
+    min-width: 1000px;
+    min-height: 600px;
+    border: 3px solid rgba(0,0,0,0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #111111;
+}
+
+header {
+    text-align: center;
+    margin: 20px 10px 0 10px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+header:hover {
+    opacity: 1;
+}
+
+section {
+    margin: 10px;
+    text-align: center;
+}
+
+section p {
+    padding: 0.3em 3em;
+    text-align: justify;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+footer p {
+    padding: 1.7em;
+}
+
+#bottom {
+    min-height: 50px;
+}
+
+aside{
+    display: none;
+    position: fixed;
+    border: 3px solid rgba(0,0,0,0.7);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+aside label{
+    margin: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav {
+    padding: 30px;
+    padding-right: 0;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    font: bold 1em Calibri;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+h1 {
+    padding: 0.7em;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h2 {
+    padding: 0.6em;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+h3 {
+    padding: 0.5em;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+em {
+    color: rgb(204,51,0);
+}
+
+span.success {
+    color: #589e29;
+}
+
+span.error {
+    color: rgb(204,51,0);
+}
+
+span.small {
+    margin: 0.3em;
+    font-size: 0.8em;
+}
+
+nav a {
+    display: block;
+    padding: 1em;
+    width: 5em;
+    border: 1px solid rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+nav li:first-child, nav li:first-child  a {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+nav li:last-child, nav li:last-child  a {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#home {
+    float: left;
+    margin: 0.8em;
+}
+
+#logoGlow {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#logout, #admin {
+    float: right;
+    margin: 2em;
+    margin-left: 0;
+    padding: 1em 0;
+    background: none;
+    border: none;
+    font: bold 1em Calibri;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a {
+    font-style: normal;
+    font-size: 1em;
+    margin: 0 0.8em;
+}
+
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 2px;
+    background-color: rgba(204,51,0,0.9);
+    border: none;
+    clear: both;
+}
+
+form {
+    display: inline-block;
+    padding: 20px;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+input, textarea, select {
+    margin: 5px;
+    font-family: inherit;
+    font-size: 1em;
+    border-radius: 3px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=search],
+textarea, select {
+    padding: 0.2em;
+    width: 200px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 0 3px #c9c9c9;
+}
+
+select {
+    width: 210px;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover,
+input[type=search]:hover, textarea:hover, select:hover {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+input[type=submit], input[type=button] {
+    margin: 0.7em;
+    padding: 0.3em 0.8em;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+img.photo, img.error, img.loading, img.album {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+img.photo {
+    border: 1px solid rgba(0,0,0,0.5);
+    opacity: 0.85;
+}
+
+img.photo:hover {
+    opacity: 1;
+}
+
+img.loading {
+    padding: 75px;
+    width: 70px;
+    height: 70px;
+}
+
+img.album, img.error, img.loading {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+img.selected {
+    opacity: 1;
+}
+
+div.feedback {
+    padding: 0.8em;
+    font-size: 1em;
+    text-align: center;
+}
+
+#leftWrap, #rightWrap {
+    width: 50%;
+    float: left;
+}
+
+#leftWrap {
+    text-align: right;
+}
+
+#rightWrap {
+    text-align: left;
+}
+
+.details {
+    text-align: center;
+    font-size: 1em;
+    padding: 0.3em;
+}
+
+.details textarea {
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    background: none;
+    resize: none;
+    font-size: 0.8em;
+    box-shadow: none;
+}
+
+.details textarea:hover {
+    border: none;
+    box-shadow: none;
+}
+
+.details textarea:focus {
+    border: none;
+    box-shadow: none;
+}
+
+div.pagination {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    opacity: 0.85;
+}
+
+div.pagination:hover {
+    opacity: 1;
+}
+
+div.pagination a {
+    margin: 0.3em;
+    padding: 0.3em 0.7em;
+    font-family: inherit;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+div.pagination a:hover {
+    text-decoration: none;
+}
+
+div.pagination a:active {
+    text-decoration: none;
+}
+
+span.disabledPage, span.currentPage {
+    margin: 0.3em;
+    padding: 0.3em 0.7em;
+    border: 1px solid rgba(0,0,0,0.5);
+    font-family: inherit;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+div.pagination hr {
+    height: 1px;
+    margin: 10px;
+}
+
+body *::selection {
+    background-color: #ffb7b7;
+}
+
+progress {
+    width: 200px;
+}

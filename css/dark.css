@@ -1,0 +1,197 @@
+/* 
+    Document   : dark
+    Created on : Jul 15, 2012, 6:08:01 PM
+    Author     : Joro
+    Description:
+        Dark color scheme
+*/
+
+/* --------------------COLOR TABLE--------------------------- */
+
+/* 
+ * Semitransparent black:           rgba(0,0,0,0.7)
+ * Transparent black:               rgba(0,0,0,0.5)
+ * Blackish:                        #111111
+ * FadeToBlack:                     rgba(10,10,10,0.85)
+ * Dark gray:                       #333333
+ * ButtonFace (light gray):         rgb(240,240,240)
+ * Bright red:                      rgb(204,51,0)
+ * Semitransparent bright red:      rgba(204,51,0,0.9)
+ * Transparent bright red:          rgba(204,51,0,0.5)
+ * Selection red:                   #ffb7b7
+ * Dark green:                      #589e29
+ * Light green:                     #8ad459
+ */
+
+/* -------------------ELEMENTS STYLING---------------------------- */
+
+body {
+    background-image: url("../images/renzler-power-down.gif");
+    color: white;
+}
+
+#center {
+    background-image: url("../images/tactile_noise.png");
+}
+
+aside {
+    background-image: url("../images/tactile_noise.png");
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    color: rgb(204,51,0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8ad459;
+    text-decoration: none;
+}
+
+a:active {
+    color: #589e29;
+    text-decoration: none;
+}
+
+nav a {
+    color: white;
+    background-color: #333333;
+    box-shadow: 3px 3px 3px 0 #111111;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    background-color: rgb(204,51,0);
+}
+
+nav a:active {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px black inset;
+}
+
+#logout, #admin {
+    color: white;
+    opacity: 0.85;
+}
+
+#logout:hover, #admin:hover {
+    color: rgba(204,51,0,0.9);
+    opacity: 1;
+}
+
+#logout:active, #admin:active {
+    color: rgba(204,51,0,0.5);
+    opacity: 1;
+    text-shadow: 0 0 1px black inset;
+}
+
+form {
+    color: white;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus,
+input[type=search]:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 10px rgb(204,51,0);
+    outline: none;
+}
+
+input[type=submit], input[type=button], div.pagination a {
+    color: white;
+    background-color: #333333;
+    box-shadow: 3px 3px 3px 0 #111111;
+}
+
+input[type=submit]:hover, input[type=button]:hover, div.pagination a:hover {
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    background-color: rgb(204,51,0);
+}
+
+input[type=submit]:active, input[type=button]:active, div.pagination a:active {
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px black inset;
+}
+
+input[type=radio]:checked, input[type=checkbox]:checked {
+    box-shadow: 0 0 10px rgb(204,51,0);
+}
+
+img.photo {
+    background-color: #333333;
+    box-shadow: 5px 5px 5px 0 #111111;
+}
+
+img.error, img.loading {
+    background-color: #333333;
+    box-shadow: 0 0 10px black inset;
+}
+
+img.album {
+    background-color: rgb(240,240,240);
+    box-shadow: 0 0 10px black inset;
+}
+
+img.photo:hover {
+    background-color: rgb(204,51,0);
+}
+
+img.photo:active {
+    box-shadow: 0 0 10px black inset;
+}
+
+img.selected {
+    background-color: #8ad459;
+}
+
+img.selected:hover {
+    background-color: #589e29;
+}
+
+.mosaic-backdrop, .mosaic-overlay {
+    background-color: #333333;
+}
+
+.mosaic-block {
+    border-color: #333333;
+}
+
+.details textarea {
+    color: white;
+}
+
+span.noLink {
+    color: white;
+    text-decoration: none;
+}
+
+span.currentPage, span.disabledPage {
+    background-color: #333333;
+    box-shadow: 0 0 10px black inset;
+}
+
+span.currentPage {
+    color: #8ad459;
+}
+
+hr {
+    box-shadow: 0 0 5px rgba(204,51,0,0.9);
+}
+
+#photosWrap {
+    box-shadow: 3px 3px 3px 0 #111111;
+}

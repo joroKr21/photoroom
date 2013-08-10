@@ -1,0 +1,49 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Creator: Georgi Krastev
+  Contact: joro.kr.21 [at] gmail.com
+  Facebook: Joro.Kr
+  From: Sofia, Bulgaria
+
+/* THANKS */
+
+/* SITE */
+  Doctype: html
+  Language: English
+  Latest update: 2012/12/03
+  Standards: HTML5, CSS3, HTTP
+  Components: PHPMailer (PHP), Minify (PHP), jQuery 1.7.2 (JS), jQuery UI (JS),
+              jQuery Smooth Scroll (JS), Lightbox (JS), Mosaic 1.0.1 (JS),
+              Modal Popup (JS)
+  IDE: NetBeans 7.1.1, Notepad++ 5.9.8, WampServer 2.2
+  Browsers (tested): Google Chrome 22+, Aurora 18+, Opera 12+, IE 10+
+  Technology: Apache 2.2.21, PHP 5.3.10, MySQL 5.5.20, JavaScript
+
+
+
+                               -o/-
+                               +oo//-
+                              :ooo+//:
+                             -ooooo///-
+                             /oooooo//:
+                            :ooooooo+//-
+                           -+oooooooo///-
+           -://////////////+oooooooooo++////////////::
+            :+ooooooooooooooooooooooooooooooooooooo+:::-
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-
+                     -:+ooooooooooooooooo+:://////:--
+                       /ooooooooooooooooo+//////:-
+                      -ooooooooooooooooooo////-
+                      /ooooooooo+oooooooooo//:
+                     :ooooooo+/::/+oooooooo+//-
+                    -oooooo/::///////+oooooo///-
+                    /ooo+::://////:---:/+oooo//:
+                   -o+/::///////:-      -:/+o+//-
+                   :-:///////:-            -:/://
+                     -////:-                 --//:
+                       --                       -:
