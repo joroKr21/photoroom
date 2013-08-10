@@ -1,7 +1,6 @@
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
-
 /* TEAM */
   Creator: Georgi Krastev
   Contact: joro.kr.21 [at] gmail.com
