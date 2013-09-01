@@ -3,18 +3,18 @@
  * This is the standard header for every page.
  * It includes the logo and menu of the web site.
  * It also includes basic javascript and css files.
- * 
+ *
  * TODO: extend keywords
  */
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
         <title>PhotoRoom</title>
         <meta name="description" content="PhotoRoom is an online photo gallery where you can easily upload and manage your photos,
               organize them in albums, share them with your friends and family or simply search and view the photos of other users."/>
-        <!--Needs extension-->
+        <!-- Needs extension -->
         <meta name="keywords" content="photo, image, picture, pic, gallery, album, room"/>
         <meta name="author" content="Georgi Krastev"/>
         <link rel="author" href="humans.txt"/>
@@ -30,11 +30,11 @@
         ?>
     </head><?php flush(); ?>
     <body>
-        <!--Big wrapper to center the site-->
+        <!-- Big wrapper to center the site -->
         <div id="center">
-            <!--Header-->
+            <!-- Header -->
             <header id="header">
-                <!--Logo-->
+                <!-- Logo -->
                 <a id="home" href="index.php">
                     <img id="logo" src="images/logo.png" alt="PhotoRoom" title="Home"/>
                     <img id="logoGlow" src="images/logoGlow.png" alt="PhotoRoom" title="Home"/>
@@ -49,7 +49,7 @@
                 } else {
                     echo '<a id="logout" href="login.php">Login | Register</a>';
                 }
-                ?><!--Menu-->
+                ?><!-- Menu -->
                 <nav id="menu">
                     <ul>
                         <li><a id="upload" href="upload.php">Upload</a></li>
